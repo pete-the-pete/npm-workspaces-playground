@@ -1,1 +1,1 @@
-# npm-workspaces-playground
+# npm-workspaces-exp
