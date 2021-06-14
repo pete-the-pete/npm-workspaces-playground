@@ -1,5 +1,5 @@
 {
-  "name": "ember-workspaces-exp",
+  "name": "npm-workspaces-exp",
   "version": "0.0.0",
   "private": true,
   "description": "Small description for ember-workspaces-exp goes here",
@@ -45,7 +45,9 @@
     "eslint-plugin-ember": "^7.1.0",
     "eslint-plugin-node": "^10.0.0",
     "loader.js": "^4.7.0",
-    "qunit-dom": "^0.9.0"
+    "qunit-dom": "^0.9.0",
+    "foo-addon": "*",
+    "bar": "*"
   },
   "engines": {
     "node": "8.* || >= 10.*"
@@ -53,5 +55,9 @@
   "workspaces": [
     "addons/*",
     "engines/*"
-  ]
+  ],
+  "volta": {
+    "node": "14.17.0",
+    "npm": "7.17.0"
+  }
 }
